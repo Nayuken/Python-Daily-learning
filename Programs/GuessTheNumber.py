@@ -18,7 +18,7 @@ elif answer == ('Y') or answer == ('y'):
 
   #Sets gNum = to a number randomly generated from any number 1-20
   gNum = random.randint(1, 20) 
-   #Generates a the loop range ending at 6
+   #Generates a the loop range ending at 6 guess
   for gtake in range(1,7):
 
     #sets the guess number input to integer so nothing other than an int will be accepted
