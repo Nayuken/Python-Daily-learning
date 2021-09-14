@@ -1,0 +1,1 @@
+This folder is composed of my practice problems using the website practicepython.org, codingbat.com, and leetcode

@@ -1,6 +1,3 @@
-#just testing the repo system
-#print("hello world")
-
 numInp=input("Enter a number: ")
 numInp = int(numInp)
 
