@@ -1,0 +1,14 @@
+- Chicken tender sub email notification scrapper:
+a. checks publix in my area to see if their is a sale on chicken tender sub
+b. if sale is true return email @high prority 
+
+
+- important code from the page:
+it will be the flex item containing the title and if it doesnt have the on sale tag then return false
+
+- specifically: 
+<span data-v-e50486a8="" data-v-08ccc97e="" class="p-savings-badge savings-badge default" data-v-a57d643a=""><div data-v-e50486a8="" class="p-savings-badge__text"><span data-v-e50486a8="" class="strong">
+            On Sale
+        </span> <div data-v-e50486a8=""><svg data-v-e50486a8="" width="14" height="100%" viewBox="0 0 14 21" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path data-v-e50486a8="" d="M0 0H11.9618C13.6169 0 14.5557 1.89558 13.5527 3.21209L8.92349 9.28791C8.37798 10.0039 8.37798 10.9961 8.92349 11.7121L13.5527 17.7879C14.5557 19.1044 13.6169 21 11.9618 21H0V0Z"></path></svg></div></div> <span data-v-e50486a8="" v-if="" class="p-savings-badge__description">
+        
+    </span></span>
