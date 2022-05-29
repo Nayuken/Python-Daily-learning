@@ -8,6 +8,7 @@ authors = ["repl.it user <replituser@example.com>"]
 python = "^3.8"
 tweepy = "^4.3.0"
 pyperclip = "^1.8.2"
+prettytable = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
 

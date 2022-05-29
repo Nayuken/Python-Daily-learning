@@ -49,7 +49,7 @@ def check_Resources(bev_name):
         print("Your total today will be: $" + str(MENU[str(drinkSelect)]["cost"]))
         print("please insert coins.")
         coin_counter()
-        resource_Counter()
+
 
 #TODO 2. Create coin counter function to calculate coins total amount
 def coin_counter():
@@ -65,6 +65,7 @@ def coin_counter():
         coffee_Revenue = coin_Total - change_total
         resources["money"] = +coffee_Revenue
         print("You paid: $" + str(coin_Total) + ". Your change back is: $" + str(round(change_total,2)))
+        resource_Counter()
 
 #TODO 3. resource counter function to deducte resources after payment has been confirmed
 def resource_Counter():
